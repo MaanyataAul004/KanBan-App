@@ -1,18 +1,52 @@
-# React + Vite
+# 🗂️ KanBan Board App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-18-blue?logo=react)
+![Vite](https://img.shields.io/badge/Vite-5-purple?logo=vite)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
+![Node](https://img.shields.io/badge/Node.js-18%2B-green?logo=node.js)
 
-Currently, two official plugins are available:
+A **Kanban-style task management app** built with **React + Vite**, supporting dynamic task creation, editable categories, and custom workflow columns.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- Create & edit tasks via popup modals  
+- Default columns: **Pending**, **In Progress**, **Completed**  
+- Add and switch between **custom categories**  
+- Dynamic dropdown-based category updates  
+- Unique ID–based task handling  
+- Fast dev experience with Vite  
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## 📸 Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+_Main Kanban Board UI_
+
+![Kanban Board](./screenshots/frontend.png)
+
+---
+
+## 🛠️ Tech Stack
+
+- **React (Hooks)**
+- **Vite**
+- **CSS**
+
+---
+
+## 🚀 Run Locally
+
+```bash
+git clone https://github.com/MaanyataAul004/KanBan-App.git
+cd KanBan-App/KanBan_App
+npm install
+npm run dev
+
+👩‍💻 Author
+Maanyata Aul
+GitHub: @MaanyataAul004
+
+📄 License
+Open-source, for learning and personal use.
