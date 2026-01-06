@@ -43,6 +43,7 @@ git clone https://github.com/MaanyataAul004/KanBan-App.git
 cd KanBan-App/KanBan_App
 npm install
 npm run dev
+```
 
 👩‍💻 Author
 Maanyata Aul
